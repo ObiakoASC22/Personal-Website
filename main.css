@@ -1,0 +1,208 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color:  #c2b22d;
+}
+
+#nav1 {
+    background-color: #FFF38C;
+    margin-top: -8px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.Home:hover {
+    text-decoration: underline;
+    color: #C0B236;
+    opacity: 0.6;
+}
+
+.About:hover {
+    text-decoration: underline;
+    color: #C0B236;
+    opacity: 0.6;
+}
+
+.Resume:hover {
+    text-decoration: underline;
+    color: #C0B236;
+    opacity: 0.6;
+}
+
+.Contact:hover {
+    text-decoration: underline;
+    color: #C0B236;
+    opacity: 0.6;
+}
+
+#mypicture {
+    background-image: url("remake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1536px;
+    height: 800px;
+    margin-top: -21px;
+    margin-left: -8px;
+}
+
+.O {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.HS {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.emptyspace {
+    visibility: hidden;
+}
+
+.footerP {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer {
+    background-color:#FFF38C;
+    padding: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-bottom: -22px;
+}
+
+.aboutH {
+    display: flex;
+    justify-content: center;
+}
+
+.flag {
+    float: left;
+    margin-top: -45px;
+    width: 90px;
+}
+
+.aboutP {
+    padding-left: 120px;
+}
+
+.aboutPH {
+    padding-left: 320px;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.aboutPH2, .extraH {
+    display: flex;
+    justify-content: center;
+    margin-top: -167px;
+    margin-left: 700px;
+}
+
+.aboutP2 {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.backtotop {
+    text-align: center;
+}
+
+.backtotop span {
+    background-color: #F0E161;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.backtotop:hover {
+    opacity: 0.6;
+}
+
+.webdesign {
+   float: right;
+   width: 110px;
+   height: 150px;
+   margin-top: -50px;
+   margin-right: -20px;
+}
+
+.eduH {
+    padding-left: 310px;
+    padding-top: 30px;
+}
+
+.eduImg {
+    float: left;
+    width: 90px;
+    height: 280px;
+}
+
+.eduP {
+    padding-left: 120px;
+}
+
+#educationDiv {
+    margin-top: 100px;
+}
+
+.extraH {
+    margin-top: -340px;
+}
+
+.extraImg {
+    float: right;
+    width: 110px;
+    height: 150px;
+    margin-right: -20px;
+}
+
+.extraP {
+    margin-top: -8px;
+    margin-left: 750px;
+}
+
+.resumeH, .resumeP {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.resumeP {
+    margin-top: 30px;
+}
+
+.resumepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:#FFF38C;
+}
+
+iframe {
+    margin-left: 400px;
+    width: 700px;
+    height: 700px;
+}
