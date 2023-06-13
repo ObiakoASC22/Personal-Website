@@ -45,11 +45,11 @@ body {
 }
 
 #mypicture {
-    background-image: url("remake.jpg");
+    background-image: url("IMG_1507small.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 1536px;
-    height: 800px;
+    height: 1700px;
     margin-top: -21px;
     margin-left: -8px;
 }
